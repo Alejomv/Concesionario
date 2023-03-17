@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class ClienteActivity extends AppCompatActivity {
-
+// juantopo es pato y nos abandono.
     EditText jetidentificacion, jetnombre, jetcorreo;
     CheckBox jactivo;
     String identificacion, nombre, correo;
