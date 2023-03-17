@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 public class ClienteActivity extends AppCompatActivity {
 // juantopo es pato y nos abandono.
+    //ADEMAS ES GAY Y AMA A ALEJO(DELFIN) EN SUS NOCHES DE SOLEDAD SE TOCA PENSANDO EN EL
     EditText jetidentificacion, jetnombre, jetcorreo;
     CheckBox jactivo;
     String identificacion, nombre, correo;
