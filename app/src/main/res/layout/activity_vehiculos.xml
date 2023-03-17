@@ -58,6 +58,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:textSize="25dp"
+        android:enabled="false"
         android:text="Activo" />
 
     <LinearLayout
@@ -99,6 +100,7 @@
             android:layout_height="60dp"
             android:textSize="20dp"
             android:layout_weight="1"
+            android:onClick="Anular"
             android:text="Anular" />
 
         <Button

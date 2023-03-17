@@ -100,6 +100,7 @@
             android:layout_height="60dp"
             android:textSize="20dp"
             android:layout_weight="1"
+            android:onClick="Anular"
             android:text="Anular" />
 
         <Button
