@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClienteActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Clientes" />
+
+    <EditText
+        android:id="@+id/etidentificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:hint="Número de Identificación"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="Nombre Completo" />
+
+
+    <EditText
+        android:id="@+id/etcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="Correo"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <CheckBox
+        android:id="@+id/cbactivo"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:enabled="false"
+        android:text="Activo" />
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="66dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:onClick="Guardar"
+            android:text="Guardar"
+            />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="66dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:onClick="Consultar"
+            android:layout_marginLeft="7dp"
+            android:text="Consultar" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="66dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:text="Anular" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="66dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="7dp"
+            android:onClick="limpiarcampos"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:onClick="Regresar"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="Regresar" />
+
+</LinearLayout>
