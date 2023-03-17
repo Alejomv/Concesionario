@@ -33,7 +33,7 @@ public class ClienteActivity extends AppCompatActivity {
 
     }
 
-    public void Guardar1(View view) {
+    public void Guardar(View view) {
 
         identificacion = jetidentificacion.getText().toString();
         nombre = jetnombre.getText().toString();
