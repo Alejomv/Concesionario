@@ -40,6 +40,12 @@ public class ClienteActivity extends AppCompatActivity {
         correo = jetcorreo.getText().toString();
 
 
+        //Comentario 1
+
+
+        ////// Actualizacion 1
+
+
         if (!identificacion.isEmpty() || !nombre.isEmpty() || !correo.isEmpty()) {
             SQLiteDatabase Search = Admin.getReadableDatabase();
             String query = "SELECT identificacion FROM TblCliente WHERE identificacion = '" + jetidentificacion.getText().toString() + "'";
